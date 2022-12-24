@@ -1,6 +1,6 @@
 name: AntiPortalStuck
 version: '${version}'
-main: net.reworlds.antiportalstuck.AntiPortalStuck
+main: me.statuxia.antiportalstuck.AntiPortalStuck
 api-version: 1.19
 authors: [ Statuxia ]
 description: plugin to solve the problem of getting stuck in the portal during registration

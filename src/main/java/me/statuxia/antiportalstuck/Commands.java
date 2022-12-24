@@ -1,4 +1,4 @@
-package net.reworlds.antiportalstuck;
+package me.statuxia.antiportalstuck;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;

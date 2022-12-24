@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group = 'net.reworlds'
+group = 'me.statuxia'
 version = '1.0'
 
 repositories {

@@ -1,4 +1,4 @@
-package net.reworlds.antiportalstuck;
+package me.statuxia.antiportalstuck;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
