@@ -40,6 +40,7 @@ public class Commands implements TabExecutor {
                     return false;
                 }
                 Config.updateConfig(range);
+                sender.sendMessage(AntiPortalStuck.PREFIX.concat("§aRadius successfully changed to " +range));
                 return true;
             }
             case "forcetp" -> {
@@ -49,9 +50,11 @@ public class Commands implements TabExecutor {
                 }
                 if ("true".equalsIgnoreCase(args[1])) {
                     Config.updateConfig(true);
+                    sender.sendMessage(AntiPortalStuck.PREFIX.concat("§aState successfully changed to true"));
                     return true;
                 } else if ("false".equalsIgnoreCase(args[1])) {
                     Config.updateConfig(false);
+                    sender.sendMessage(AntiPortalStuck.PREFIX.concat("§aState successfully changed to false"));
                     return true;
                 } else {
                     sender.sendMessage(AntiPortalStuck.PREFIX.concat("§cWrong state. The state must be true or false"));
