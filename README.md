@@ -17,4 +17,5 @@ This plugin works in two stages:
 The following commands are present in the plugin:
 
 > /antiportalstuck (or aps) force (true/false) - enables an emergency teleport of the player to the upper block of the portal
+
 > /antiportalstuck range (1-5) - changes the radius by which a suitable block is being searched
